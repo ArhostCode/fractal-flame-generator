@@ -47,7 +47,6 @@ public class FractalFlameController {
                 ),
                 List.of(new LogGammaCorrectionImageProcessor())
         );
-        System.out.println(image);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         ImageIO.write(ImageUtils.convertFractalImageToBufferedImage(image), ImageFormat.PNG.getFormatName(), byteArrayOutputStream);
         return byteArrayOutputStream.toByteArray();

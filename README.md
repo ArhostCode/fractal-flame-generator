@@ -8,7 +8,7 @@
 
 
 ## Auto-generation image
-![](http://flame.ardyc.online/generate?height=500&width=1000)
+![](http://flame.ardyc.ru/generate?height=500&width=1000)
 
 
 ## Introduction
